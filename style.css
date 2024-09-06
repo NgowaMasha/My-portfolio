@@ -1,0 +1,121 @@
+.header {
+
+    top: 0;
+    left: 0;
+    height: fit-content;
+    background-color: aqua;
+    padding:20px 10px;
+    display: flex;
+    justify-content: space-between; 
+}
+.nav {
+    /* background-color:#2f00ff; */
+    display: inline-flex;
+    text-align: justify;
+    float: right;
+    word-spacing:  5px;
+}
+body{
+    background-color: hsla(20, 100%, 20%, 0.424);
+    margin: auto;
+    width: auto;
+}
+#home{
+    border-radius: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 2rem;
+    font-size: 2rem;
+}
+#home p{
+    float: none;
+    margin-bottom: 20v;
+}
+#home img{
+    display: inline;
+    margin-top: fixed;
+    border-radius: 30%;
+    height: 75vh; 
+    filter: grayscale(100%);
+    position: center;
+    margin-left: 26%;
+    margin-bottom: fixed;
+}
+   
+.list li {
+    padding: inherit;
+    text-align: center;
+    margin-right: 2rem;
+     display: inline-flex;
+}
+
+#home span :active{
+    padding: inherit;
+    font-size: 35px;
+    color: rgb(246, 255, 0);
+    font-size: larger;
+    font-weight: 75px;
+    display: inherit;
+}
+#about{
+    text-align: center ;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 2rem;
+}
+.about span{
+    color:green;
+    font: size 15px;
+    font-weight: 20px;
+    color: hwb(10 17% 11%);
+}
+#services{
+    text-align: center;
+    background-color:inherit;
+    font-size: 2rem;
+    font-weight: 20rem;
+}
+.servises ol{
+    text-align: inherit;
+    display: flex;
+}
+.contact{
+    text-align: center;
+}
+.span{
+    text-decoration: none;
+    color: rgb(16, 201, 121);
+    content: normal;
+    display: block;
+    transition: 22px;
+    text-decoration: aqua;
+}
+#btn{
+    margin-right: 0px;
+    margin-left: 3px;
+    display: block;
+    text-align: left;
+
+}
+.btn span{
+    color: hsl(330, 100%, 50%);
+    font-weight: 200px;
+    position: center;
+
+}
+#contact{
+    text-align: justify;
+    display: inline;
+    color: rgb(229, 30, 16);
+    justify-content: baseline;
+    font-weight: 200;
+    font-size: 30px;
+
+}
+.contact-sci{
+    background-color: inherit;
+    color: #f700ff;
+    justify-content: baseline;
+     }
+
+
